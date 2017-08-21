@@ -43,3 +43,5 @@ config :sling, Sling.Repo,
   hostname: "localhost",
   pool_size: 10
 import_config "dev.secret.exs"
+config :guardian, Guardian,
+  secret_key: "TEyJfDyy2ZmE4cQ75ojogbssdYHoZtodVLwvNhCe2H7RdpKqrZDvknDiPk7wElEG"
